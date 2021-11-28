@@ -1,8 +1,6 @@
 // -------------------VARIABLES
 // --------COLOR
 
-
-// HOLAAAAAAAAAAAAAAAAAAA!!!!!!!!!!!! 
 $c-anti: #f2ff00;
 $c-fondo: rgba(255, 255, 255, 0.3);
 $lightblack: rgb(49, 44, 44);
@@ -25,78 +23,6 @@ $rem60: 60rem;
 
 $shadowM: 0 0 2rem black;
 
-// ---------------------------CONDICIONALE
-
-
-
-// Cambiar el valor de $a por 1 y 2 o mayor.
-$a: 2;
-
-$map: (
-    var1: 5em,
-    var2: 10em,
-    var3: 15em,
-    var4: 20em);
-
-.noticiasContainer {
-    height: 35vh;
-    width: 200px;
-    margin: 20px;
-    max-width: 100%;
-    border-radius: 1em;
-    @if $a==1 {
-        background: url(../img/antiwm.jpg) center;
-        background-size: 225px 400px;
-        border: solid 3px $c-anti;
-    }
-    @else if $a>=2 {
-        background: url(../img/antiwm2.jpg) center;
-        background-size: 225px 400px;
-        border: solid 3px #fff;
-    }
-    .noticiasContainer__h3 {
-        color: $c-anti;
-        background-color: #2c2828f7;
-        font-size: 2em;
-        padding: .5em;
-        border-radius: 1em;
-        border: solid 1px $c-anti;
-        @if $a>=1 {
-            display: none;
-        }
-    }
-}
-@for $i from 1 through 4 {
-    .for-#{$i} {
-        width: 225px * $i;
-        opacity: .25 * $i;
-        }
-    }
-@each $img in 1, 2, 3, 4{
-    .moto-#{$img} {
-    background-image: url("../img/moto-#{$img}.jpg");
-    background-size: 225px 400px;
-    background-position: center;
-    border: solid 3px $c-anti;
-    }
-}
-@each $var, $size in $map {
-    .map--#{$var} {
-        background-color: $lightblack;
-        height: $size;
-        width: 30em;
-        box-shadow: $shadowM;
-        border: solid 3px $c-anti;
-        border-radius: 1em;
-        margin: 1em;
-        color: $c-anti;
-    }
-    
-}
-
-.map--var1, .map--var2, .map--var3, .map--var4 {
-    max-width: 100%;
-}
 //  --------------------------GENERAL
 
 * {
