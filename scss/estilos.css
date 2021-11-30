@@ -73,19 +73,6 @@ body {
   width: 80%;
 }
 
-.containerSection {
-  width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 15px;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.3);
-  border-radius: 2.5rem;
-  -webkit-box-shadow: 0 0 2rem black;
-          box-shadow: 0 0 2rem black;
-}
-
 .article {
   text-align: center;
   margin-bottom: 15px;

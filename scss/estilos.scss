@@ -86,16 +86,6 @@ transition: .5s;
     width: $porcent8;
 }
 
-.containerSection {
-    width: $porcent8;
-    display: flex;
-    margin: 15px;
-    padding: 10px;
-    background-color: $c-fondo;
-    border-radius: 2.5rem;
-    box-shadow: $shadowM;
-}
-
 .article {
     text-align: center;
     margin-bottom: 15px;
@@ -308,7 +298,6 @@ h2 {
     width: $maxporcent;
     flex-direction: column;
     justify-content: flex-end;
-
     .footer__caja {
         display: flex;
         background-color: $c-anti;
@@ -326,7 +315,6 @@ h2 {
         color: #000000;
         font-size: 20px;
     }
-
     .footer__socialLinks {
         display: flex;
         width: 17%;
@@ -385,17 +373,14 @@ h2 {
     }
 }
 
-
 // --------------------CORRECCIONES BOOSTRAP
 
 a:hover {
     color: $c-anti;
 }
-
 ul {
     padding-left: 0;
 }
-
 .bg-anti {
     background-color: $c-anti;
 }
@@ -430,7 +415,6 @@ ul {
 
 // --------------------------CAROUSEL
 
-
 .carousel {
     width: 70%;
     padding: 5px 50px;
@@ -443,20 +427,16 @@ ul {
         height: 30rem;
     }
 }
-
 .carousel-control-next, .carousel-control-prev {
     width: 5%;
 }
 
 // ---------------------------------SOBRE NOSOTROS
 
-
-
 #imgAU {
     max-height: 1000px;
     // width: 70%;
 }
-
 .articleAUimg {
     display: flex;
     flex-direction: column;
@@ -578,7 +558,6 @@ ul {
         transform: scale(1.1);
         border: solid 3px yellow;
     }
-
 }
 
 // ----------------------------FORMULARIO
@@ -647,7 +626,6 @@ ul {
         margin-bottom: $rem10 / 5;
         resize: none;
     }
-
 }
 
 // ------------------------------LOGIN & REGISTER
@@ -705,7 +683,6 @@ ul {
         color: grey;
     }
 }
-
 
 // -----------------------------@MEDIA
 // ---------------1236PX
@@ -767,9 +744,7 @@ ul {
             padding:  0 $rem10 / 5;
         }
     }
-    
 }
-
 
 // --------------------768PX
 
